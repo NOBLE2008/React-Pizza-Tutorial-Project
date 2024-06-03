@@ -10,9 +10,9 @@ import { useEffect, useState } from 'react'
     }, 1000)
   }, [])
 
-  return <div>
-  <h1>The time is { time }</h1>
-  </div>
+  return <>
+    <h1>Hello World</h1>
+  </>
  }
 
 export default App
