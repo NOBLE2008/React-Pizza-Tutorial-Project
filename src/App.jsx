@@ -4,8 +4,19 @@ const Header = () => {
   )
 }
 
+const Footer  = () => {
+  return (
+    <h3>Copyright {new Date().getFullYear()}</h3>
+  )
+}
+
  function App(){
-    return <Header/>
+    return (
+    <> 
+    <Header/>
+    <Footer/>
+    </>
+    )
  }
 
 export default App;
