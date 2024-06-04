@@ -1,26 +1,11 @@
-import { useEffect, useState } from 'react'
-
-const Pizza = () => {
+const Header = () => {
   return (
-    <div>
-      <h2>Pizza</h2>
-    </div>
+    <h1>Fast React Pizza Co.</h1>
   )
 }
- function App(){
-  
-  const [time, setTime] = useState(new Date().toLocaleTimeString())
 
-  useEffect(() => {
-    setInterval(() => {
-      setTime(new Date().toLocaleTimeString())
-    }, 1000)
-  }, [])
-  
-  return <>
-    <h1>Hello World</h1>
-    <Pizza/>
-  </>
+ function App(){
+    return <Header/>
  }
 
-export default App
+export default App;
