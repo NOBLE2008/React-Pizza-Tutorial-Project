@@ -13,6 +13,12 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.my::after {
+  content: "";
+  display: block;
+  width: 100%;;
+}
+
 a {
   font-weight: 500;
   color: #646cff;
