@@ -1,6 +1,4 @@
-const Header = () => {
 
-}
 
  function App(){
     return (
