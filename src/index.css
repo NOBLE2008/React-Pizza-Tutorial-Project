@@ -24,3 +24,8 @@ img{
   justify-content: center;
   width: 90%;
 }
+
+.pizza-con::after{
+  content: "";
+  width: 40%;
+}
