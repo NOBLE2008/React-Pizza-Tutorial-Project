@@ -13,3 +13,14 @@ img{
   width: 100px;
   float: left;
 }
+
+.pizza-con{
+  display: flex;
+  background-color: burlywood;
+  max-width: 740px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 4px;
+  justify-content: center;
+  width: 90%;
+}
