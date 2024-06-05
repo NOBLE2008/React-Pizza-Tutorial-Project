@@ -7,3 +7,9 @@
 *{
   background-color: burlywood;
 }
+
+
+img{
+  width: 100px;
+  float: left;
+}
