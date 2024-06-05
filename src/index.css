@@ -2,6 +2,7 @@
   display: flex;
   justify-content: center;
   align-content: center;
+  margin-top: 140px;
 }
 
 *{
@@ -34,4 +35,15 @@ img{
   width: 40%;
   display: flex;
   gap: 4px;
+}
+
+p{
+  font-size: 15px;
+}
+
+.text-con{
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
 }
