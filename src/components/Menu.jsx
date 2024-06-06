@@ -58,6 +58,7 @@ const Menu = () => {
           ingredients={object.ingredients}
           price={object.price}
           photoName={object.photoName}
+          stock={object.soldOut ? "Out of Stock" : "In Stock"}
         />;
       })}
         </div>

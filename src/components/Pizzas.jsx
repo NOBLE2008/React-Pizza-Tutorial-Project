@@ -1,4 +1,5 @@
-const Pizzas = () => {
+import "../index.css";
+const Pizzas = (props) => {
   return (
     <div className="pizza">
       <div>
@@ -6,7 +7,12 @@ const Pizzas = () => {
       </div>
       <div className="text-con">
         <div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          <p id="name">{props.name}</p>
+          <p id="ingredients">{props.ingredients}</p>
+          <div id="ps">
+          <p id="price">£{props.price}</p>
+          <p id="stock">{props.stock}</p>
+          </div>
         </div>
       </div>
     </div>

@@ -13,10 +13,10 @@
 }
 
 
-img{
-  width: 100px;
-  float: left;
-}
+
+
+
+
 
 h1{
   text-align: center;
@@ -53,9 +53,16 @@ h1{
   gap: 4px;
 }
 
-p{
+#name{
   font-size: 15px;
+  font-weight: 500;
 }
+
+#ingredients{
+  font-size: 12px;
+}
+
+
 
 .text-con{
   display: flex;
