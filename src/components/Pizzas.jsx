@@ -3,7 +3,7 @@ const Pizzas = (props) => {
   return (
     <div className="pizza">
       <div>
-        <img src="pizzas/funghi.jpg" alt="" />
+        <img src= {props.photoName} alt="" />
       </div>
       <div className="text-con">
         <div>
