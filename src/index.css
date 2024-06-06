@@ -2,8 +2,8 @@
   display: flex;
   justify-content: center;
   align-content: center;
-  margin-bottom: auto;
   margin-top: 40px;
+  margin-bottom: auto;
 }
 
 *{
@@ -58,5 +58,5 @@ p{
 .wrapper{
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  min-width: 100vh;
 }
