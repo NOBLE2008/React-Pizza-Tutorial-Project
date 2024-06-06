@@ -1,8 +1,9 @@
-import '../index.css'
+import "../index.css";
 
-import Pizzas from './Pizzas'
+import Pizzas from "./Pizzas";
 
-const pizzaData = [
+const Menu = () => {
+  const pizzaData = [
     {
       name: "Focaccia",
       ingredients: "Bread with italian olive oil and rosemary",
@@ -46,18 +47,23 @@ const pizzaData = [
       soldOut: false,
     },
   ];
-  
-
-const Menu = () => {
-    return <>
-
-
-    <div className="contain">
-    <div className="pizza-con">
-
-    </div>
-    </div>
+  return (
+    <>
+      <div className="contain">
+        <div className="pizza-con">
+        {pizzaData.map((object, i) => {
+        return <Pizzas
+          name={object.name}
+          key={i}
+          ingredients={object.ingredients}
+          price={object.price}
+          photoName={object.photoName}
+        />;
+      })}
+        </div>
+      </div>
     </>
-}
+  );
+};
 
-export default Menu
+export default Menu;
