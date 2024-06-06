@@ -1,6 +1,12 @@
 const Footer  = () => {
+  const styles = {
+    textAlign: 'center',
+  }
     return (
-      <h3>Copyright {new Date().getFullYear()}</h3>
+    <div style={styles} id="footer"><footer>
+
+    <p>Copyright {new Date().getFullYear()}</p>
+        </footer></div>
     )
   }
 
