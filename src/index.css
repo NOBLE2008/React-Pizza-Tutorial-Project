@@ -22,7 +22,10 @@ img{
   margin-right: 5px;
 }
 
-
+#ps{
+  display: flex;
+  justify-content: space-between;
+}
 
 h1{
   text-align: center;
