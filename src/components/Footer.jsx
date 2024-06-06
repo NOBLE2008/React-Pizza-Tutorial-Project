@@ -1,12 +1,13 @@
-const Footer  = () => {
-  const styles = {
-    textAlign: 'center',
-  }
-    return (
-    <div style={styles} id="footer"><footer>
+import '../index.css'
 
-    <p>Copyright {new Date().getFullYear()}</p>
-        </footer></div>
+const Footer  = () => {
+    return (
+      <div id='footer'>
+    <div id="footer"><footer>
+
+<p>Copyright {new Date().getFullYear()}</p>
+    </footer></div>
+      </div>
     )
   }
 
